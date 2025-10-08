@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
 driver=webdriver.Chrome()
-driver.get("file:///D:/26th%20July%202025/Selenium/Html%20files/Listbox.html")
+driver.get("file:///D:/26th%20July%202025/Selenium/Html%20files/S2_Listbox.html")
 time.sleep(2)
 
 element=driver.find_element(By.XPATH,"//select[@id='1234']")
@@ -14,7 +14,7 @@ result=s1.is_multiple
 print(result)
 
 if result:
-    print("Listbox is of multi selectable")
+    print("S2_Listbox is of multi selectable")
 else:
-    print("Listbox is of single selectable")
+    print("S2_Listbox is of single selectable")
 

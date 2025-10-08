@@ -14,7 +14,7 @@ result=s1.is_multiple
 print(result)
 
 if result:
-    print("Listbox is of multi selectable")
+    print("S2_Listbox is of multi selectable")
 else:
-    print("Listbox is of single selectable")
+    print("S2_Listbox is of single selectable")
 

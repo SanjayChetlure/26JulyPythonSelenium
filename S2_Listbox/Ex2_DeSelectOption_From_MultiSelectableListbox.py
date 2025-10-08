@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
 driver=webdriver.Chrome()
-driver.get("file:///D:/26th%20July%202025/Selenium/Html%20files/Listbox.html")
+driver.get("file:///D:/26th%20July%202025/Selenium/Html%20files/S2_Listbox.html")
 time.sleep(2)
 
 element=driver.find_element(By.XPATH,"//select[@id='1234']")
